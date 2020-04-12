@@ -1,0 +1,19 @@
+body {
+  background-color: wheat;
+}
+a {
+  color: wheat;
+}
+.menu {
+  background: #d01919 !important;
+  color: wheat !important;
+}
+.logo {
+  display: flex;
+}
+.logo .text {
+  padding: 13px 0px;
+}
+.ui.form {
+  margin-top: 200px;
+}

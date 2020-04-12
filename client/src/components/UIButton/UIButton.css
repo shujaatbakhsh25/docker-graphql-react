@@ -1,0 +1,16 @@
+.ui-btn {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.ui.red.button.large {
+  width: 100% !important;
+}
+
+.ui.red.button.left {
+  float: left;
+  margin: 0;
+}
+.ui.red.button.right {
+  float: right;
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+.ui.centered.card {
+  margin-top: 200px;
+  width: auto;
+}
+.image img {
+  height: 50%;
+}
+.content {
+  text-align: center;
+}
