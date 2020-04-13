@@ -6,7 +6,7 @@ import App from "./components/App";
 
 // Pass your GraphQL endpoint to uri
 const client = new ApolloClient({
-  uri: "http://0.0.0.0:4000/"
+  uri: "http://localhost:80/"
 });
 
 const ApolloApp = AppComponent => (
