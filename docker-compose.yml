@@ -3,7 +3,7 @@ services:
   server:
     build: ./server
     ports:
-      - "80:80"
+      - "82:82"
   # client:
   #   build: ./client
   #   ports:
