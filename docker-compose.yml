@@ -3,10 +3,12 @@ services:
   server:
     build: ./server
     ports:
-      - "80:4000"
+      - "4000:4000"
   client:
     build: ./client
     ports:
-      - "82:82"
+      - "80:82"
+    depends_on: 
+      - server
   redis:
     image: "redis:alpine"
