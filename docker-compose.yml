@@ -2,8 +2,6 @@ version: "3"
 services:
   server:
     build: ./server
-    ports:
-      - "82:82"
   client:
     build: ./client
     ports:
