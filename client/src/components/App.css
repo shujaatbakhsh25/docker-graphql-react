@@ -17,3 +17,16 @@ a {
 .ui.form {
   margin-top: 200px;
 }
+
+.server-left {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  font-size: 36px;
+}
+.server-right {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  font-size: 36px;
+}

@@ -2,6 +2,9 @@ const unsplash = require("./api");
 const uuid = require("uuid");
 const bluebird = require("bluebird");
 const redis = require("redis");
+// const client = redis.createClient()
+
+//use on instance
 const client = redis.createClient({
   host: "redis",
   port: 6379,
