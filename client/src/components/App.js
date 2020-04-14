@@ -47,10 +47,10 @@ class App extends Component {
           </Router>
         </div>
         <div>
-          <span className="server-left">Server 1</span>
+          <span className="server-left">Server 3</span>
         </div>
         <div>
-          <span className="server-right">Server 1</span>
+          <span className="server-right">Server 3</span>
         </div>
       </div>
     );
