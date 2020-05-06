@@ -1,4 +1,4 @@
-#server
+#client
 FROM node:current-slim
 
 WORKDIR /usr/src/app/client
